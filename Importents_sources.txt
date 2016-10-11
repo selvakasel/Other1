@@ -1,0 +1,912 @@
+Doubts
+
+(1) use of SET NOCOUNT ON/OFF; in sql
+ -- Its display the "Command(s) completed successfully"
+  Eg:  SET NOCOUNT on
+       select * from PatientReg
+
+
+(2) diff NVARCHAR(400) and VARCHAR
+
+(3)lock
+(4)param
+(5)Checked
+(6)Enum
+(5)Encapsulation
+(6)Stream
+(7)stringbuilder
+(8)string Vs String
+
+
+Key Words
+
+int? i = null;    Use This method only int accept null values
+bool? ko = null;
+
+
+
+Type costing Eg:
+
+ int s = 9;
+ double j = (double)s;
+
+
+http://www.dotnetfunda.com/interviews/show/3832/difference-between-string-and-string-in-csharp
+String
+_______
+  (1)String is an Class(System.string)
+  (2)String is an Reference type(class)
+  (3)A String object is called immutable (read-only) because its value cannot be modified once it has been created
+
+string
+________
+
+  (1)string is an alise name of String class that is created by microsoft
+  (2)string is an value type(data type).
+  (3)string is a c# keyword.
+  (4)string is a compile shortcut for System.String class.
+
+
+(9)convert.tostring("XX") Vs .Tostrings
+
+Tostrings
+__________
+Returns a null reference exception for str. (Not Accept Null values)
+eg:
+string str;
+object i = null;
+str = i.ToString();
+
+convert.tostring(xxx)
+______________________
+Returns an empty string for str and does not throw an exception. If you dont
+eg:
+string str;
+object i = null;
+str = Convert.ToString(i);
+
+
+
+http://pankajtiwarii.blogspot.in/p/oops-abstraction-encapsulation.html
+difference between abstraction and encapsulation in c# with example
+-------------------------------------------------------------------
+
+Encapsulation: hiding data using getters and setters etc.
+
+Abstraction: hiding implementation using abstract classes and interfaces etc.
+
+
+
+
+(10)diff abstract vs interface
+http://www.aspdotnet-suresh.com/2010/04/abstract-versus-interface.html
+DIFFERENCE BETWEEN AN ABSTRACT CLASS AND AN INTERFACE:
+
+(1)An Abstract class doesn't provide full abstraction but an interface does provide full abstraction; i.e. both a declaration and a definition is given in an abstract class but not so in an interface.
+(2)Using Abstract we can not achieve multiple inheritance but using an Interface we can achieve multiple inheritance.
+(3)We can not declare a member field in an Interface.
+(4)We can not use any access modifier i.e. public , private , protected , internal etc. because within an interface by default everything is public.
+(5)An Interface member cannot be defined using the keyword static, virtual, abstract or sealed.
+(6)an interface cannot declar variable(eg: var a=10),but abstract class can declar variable(eg: var a=10)
+(7)an interface cannot declar constructor,an abstract class can declar constructor
+
+(11)substring
+  use for separate the String
+
+concat 
+  use for joining the String
+
+(12)param
+
+
+1)hashtable,array list,list,generick list
+2)sql have clause
+3)mvc architecture
+4)diff view bag,view data,temp data
+
+
+
+Answers
+_____________________
+
+How to Improve Software Perfomance ??
+
+*Bundling and minification
+*Linq
+.Use interface(reduce the count of Method)
+   .use anonymous method (reduce the method content)
+   .use delegate
+   .Use LINQ
+
+1)dot net server name=IIS.
+
+Internet Information server
+use:If click the debugger to run the page in browser.We use version iis 7.0
+
+* Java server name=apache tom cat.
+
+(1.1)OOps.........
+Encapsulation: hiding data using getters and setters etc.
+Abstraction: hiding implementation using abstract classes and interfaces etc.
+
+2)what is unsafe code?
+ within the function we use pointer variables means it is knows as un safe code.
+
+eg: its one Type of Keyword we are using pointer variable means must use unsase code  
+         
+         int var = 20;    //Ordinery
+         int* p = &var;   //Pointer
+ 
+
+
+3) differ webservice and Wcf
+4) data Anotation?
+cilent and server side validation .
+it is namespace
+5)attributes?
+
+6)linked list?
+linked list is allocated memory at run time, so, there is no waste of memory. Performance wise linked list is slower than array because there is no direct access to linked list elements
+
+7)scope identity
+  * used in sql,
+  * it take table primary key last vaue in 
+   
+8)difference between primary key and unique key
+
+9) DLL
+
+DLL stands for Dynamic Link Library: is a container of Classes each Class is a container of Methods. Method that represent Block of Code that contains our Business Logic that the DLL Structure. Why we need to build it? To collect all of our code to one place that makes the accessing to our code easier. to reference to dll file after create it. follow these links to know more. hope get help.
+
+uses:
+
+   The use of DLLs helps promote modularization of code, code reuse, efficient memory usage, and reduced disk space. Also when dll is used the programs will load faster and also run faster than normal codes. 
+
+-->first service referance -> add referance
+
+--> mvc4 ->add service reference
+
+
+10)Query String
+http://www.dotnetperls.com/querystring
+
+eg)
+
+ String Fromdate = Convert.ToString(Request.QueryString["Fromdate"]);
+            String Todate = Convert.ToString(Request.QueryString["Todate"]);
+            String Orgname = Convert.ToString(Request.QueryString["Orgname"]);
+
+
+if we pass the parameter from view page to controller page that time get the value uaing parameter
+
+eg: parameter:Fromdate
+
+11)autocommit and rollback use in sql
+ .Use for if delete the sql query means to retreive the query using rollback
+
+eg ctrl + z  (Undo)
+     ctrl + Y  (Redo)
+COMMIT : 
+     COMMIT command to make changes permanent save to a database during the current transaction.
+ROLLBACK : 
+    ROLLBACK command execute at the end of current transaction and undo/undone any changes made since the begin transaction.
+SAVEPOINT : 
+   SAVEPOINT command save the current point with the unique name in the processing of a transaction.
+
+
+12)constructor
+
+Class name is same but parameter is different
+
+13) How to increase the application fast
+
+.Use interface(reduce the count of Method)
+.use anonymous method (reduce the method content)
+.use delegate
+.Use LINQ
+
+14)IIS
+
+Internet Information server
+use:If click the debugger to run the page in browser.We use version iis 7.0
+
+15) value type and reference type
+
+value data type and reference data type
+1) value( contain the data directly ) but reference ( refers to the data )
+2) in value( every variable has its own copy) but  in reference (more than variable can refer to some objects)
+3) in value (operation variable can`t effect on other variable ) but in reference (variable can affect other )
+4) value types are(int, bool, float) but reference type are (array , class objects , string )
+
+16)What is Stack and Keep
+
+17)Boxing unBoxing
+
+http://www.etechpulse.com/2013/04/difference-between-boxing-and-unboxing.html
+
+18)session type?
+
+asp.net supports 4 types of sessions 1)in process 2)state server 3)sql server 4)custom
+
+19)wildcard in sql
+
+20)view in sql
+
+21)Features of Abstract Class
+
+An abstract class cannot be instantiated.
+An abstract class contain abstract members as well as non-abstract members.
+An abstract class cannot be a sealed class because the sealed modifier prevents a class from being inherited and the abstract modifier requires a class to be inherited.
+A non-abstract class which is derived from an abstract class must include actual implementations of all the abstract members of parent abstract class.
+An abstract class can be inherited from a class and one or more interfaces.
+An Abstract class can has access modifiers like private, protected, internal with class members. But abstract members cannot have private access modifier.
+An Abstract class can has instance variables (like constants and fields).
+An abstract class can has constructors and destructor.
+An abstract method is implicitly a virtual method.
+Abstract properties behave like abstract methods.
+An abstract class cannot be inherited by structures.
+An abstract class cannot support multiple inheritance.
+
+(22)Sql Injection eg:
+  update PatientReg  set FirstName=@firstname,Lastname=@lastname,DOB=@dob,Country=@country,State=@state,City=@city where PatientRegId=@userid
+  so Pls use "stored Procedure"
+
+(23)diff between trungate and delete in sql
+http://www.geekinterview.com/question_details/24530
+http://sql-oracle-mysql.blogspot.in/2010/11/difference-between-drop-truncate-and.html
+
+DELETE
+1. DELETE is a DML Command.
+2. DELETE statement is executed using a row lock, each row in the table is locked for deletion.
+3. We can specify filters in where clause
+4. It deletes specified data if where condition exists.
+5. Delete activates a trigger because the operation are logged individually.
+6. Slower than truncate because, it keeps logs.
+7. Rollback is possible.
+
+TRUNCATE
+1. TRUNCATE is a DDL command.
+2. TRUNCATE TABLE always locks the table and page but not each row.
+3. Cannot use Where Condition.
+4. It Removes all the data.
+5. TRUNCATE TABLE cannot activate a trigger because the operation does not log individual row deletions.
+6. Faster in performance wise, because it doesn't keep any logs.
+7. Rollback is not possible.
+
+---pls save in image format.
+(24)diff between clone and copy in sql table
+http://interviewquestionpond.blogspot.in/2008/02/what-is-difference-between-copy-and.html
+http://www.geekinterview.com/question_details/60500
+
+    *Copy() - For both structure and data
+    *Clone() - For only structure
+----------------------------------------------
+Difference between a View and Stored Procedure
+
+http://www.c-sharpcorner.com/blogs/difference-between-a-view-and-stored-procedure1
+http://beyondrelational.com/modules/2/blogs/59/posts/13696/interview-question-difference-between-views-and-stored-procedures.aspx
+
+(26)Difference between Stored Procedure and Function in Sql with Example
+http://tutoriz.com/Thread-Difference-between-Stored-Procedure-and-Function-in-Sql-with-Example
+
+1. Procedure can have both input\output parameters
+But function can have only input parameter.
+2. Inside procedure we can use DML (INSERT/UPDATE/DELETE) statements.
+But Inside function we can’t use DML statements.
+3. We can’t utilize stored procedure in Select Statement,
+But we can use function in Select Statement.
+4. We can use Try-Catch Block in Stored Procedure,
+But Inside function we can’t use Try-Catch block.
+5. Procedure can return 0 or n values (max 1024),
+But function can return only 1 value which is mandatory.
+6. Procedure can’t be call from function,
+But we can call function from Procedure.
+7. We can go for transaction management in procedure,
+But we can't go in function.
+8. Stored Procedures cannot be used in the SQL statements anywhere in the WHERE/HAVING/SELECT section 
+But we can use Function anywhere.
+9.We can’t join Stored Procedure,
+But We can join functions.
+
+(27)What is the difference between 3-tier and N-tier?
+http://tutoriz.com/Thread-What-is-the-difference-between-3-tier-and-N-tier
+
+(28)DIFFERENCE BETWEEN @Html.TextBox and @Html.TextBoxFor
+http://tutoriz.com/Thread-DIFFERENCE-BETWEEN-Html-TextBox-and-Html-TextBoxFor
+
+
+(29)SQL Alias
+
+SELECT first_name AS Name FROM student_details;
+- -using rename for firstname
+
+(30)SQL HAVING Clause
+
+-used only aggregate function
+-actlike where condition with in group by statement
+
+SELECT dept, SUM (salary) FROM employee GROUP BY dept HAVING SUM (salary) > 25000 
+
+
+
+(31)SQL GRANT Command and SQL REVOKE Command:
+
+SQL GRANT is a command used to provide access or privileges on the database objects to the users.(user access rights--permission)
+
+The REVOKE command removes user access rights or privileges to the database objects.
+
+(32)SQL Views
+
+CREATE VIEW view_name 
+AS 
+SELECT column_list 
+FROM table_name [WHERE condition]; 
+
+(33)Hashtable vs Dictionary differences:
+
+http://www.aspdotnet-suresh.com/2013/09/difference-bw-array-and-arraylist-in-csharp-example.html
+(34)Arrays vs ArrayLists
+
+Arrays :
+Array is of fixed size 
+These are strong type collection and allow to store fixed length
+In arrays we can store only one datatype either int, string, char etc…
+Arrays belong to System.Array namespace
+Array is a reference type data type 
+
+ArrayLists:
+ArrayList is allowed to grow as needed 
+Array Lists are not strong type collection and size will increase or decrease dynamically
+In arraylist we can store all the datatype values
+Arraylist belongs to System.Collection namespaces
+Array list is a class . 
+
+(35)
+Arraylist:
+It is like Array of objects.
+"System.Collections" is the Namespace for Arraylist. It automatically added to namespace section in aspx.cs page.
+We need not to specify object type arraylist going to contain.
+In arraylist each item is stored as object. And return value as object.
+It needs to box and unbox the elements.
+
+List<T>:
+"System.Collections.Generic" is the Namespace for List. We need to add this.
+We need to specify object type which type of elements it contain. 
+Ex: List<string> StrObj=new List<string>();
+From the above example StrObj will only store string objects.
+It doesn't need.
+
+
+(36)diff nvarchar Vs  varchar  
+http://sqlhints.com/2011/12/23/difference-between-varchar-and-nvarchar/
+
+varchar                                         nvarchar  
+________
+*NOn-Unicode characters.                          *Unicode characters. 
+Can store maximum 8000 Non-Unicode characters.   *Can store maximum 4000 
+*supprt all language                             *not supported
+*It takes 1 byte per character                   *It takes 2 byte per character
+*FirstName Length=1                              *FirstName Length=1
+
+
+(36)diff nchar Vs  nvarchar  
+1. nchar and nvarchar can store Unicode characters. 
+2. char and varchar cannot store Unicode characters. 
+3. char and nchar are fixed-length which will reserve storage space for number of characters you specify even if you don't use up all that space. 
+4. varchar and nvarchar are variable-length which will only use up spaces for the characters you store. It will not reserve storage like char or nchar. 
+
+1. char : fixed-length character data with a maximum length of 8000 characters. 
+2. nchar: fixed-length unicode data with a maximum length of 4000 characters. 
+3. Char = 8 bit length 
+4. NChar = 16 bit length 
+
+(38)Difference between DateTime and DateTime2 DataType
+
+http://sqlhints.com/2011/09/17/difference-between-datetime-and-datetime2-datatype/
+
+
+
+(39)UNION AND UNION ALL Operator
+
+http://sqlhints.com/2011/09/04/union-and-union-all-operator/
+
+Datatypes:
+________
+int
+money  
+smallmoney
+decimal  	
+bigint
+bit 
+
+float 
+
+varchar
+varchar(max)
+text
+nvarchar
+char
+nchar
+datetime
+smalldatetime
+datetime2
+date
+binary 
+varbinary
+varbinary(max)  
+image 
+
+
+
+method overloadind and over riding
+______________________________________
+http://www.dotnetfunda.com/articles/show/2971/polymorphism-method-overloading-and-overriding-in-csharp
+http://www.codeproject.com/Articles/816448/Virtual-vs-Override-vs-New-Keyword-in-Csharp
+
+
+Static Polymorphism:
+____________________
+In static polymorphism, the decision and response to a method is determined at the compile time. Therefore, it is also known as compile-time polymorphism.
+
+Dynamic Polymorphism:
+_____________________
+In dynamic polymorphism, the decision and response to a method is determined at the run time. Therefore, it is also known as run-time polymorphism. 
+
+
+Overloading                                                                                            Overriding
+___________                                                                                             __________
+      
+Having same method name with different Signatures (parameters).                               1) Methods name and signatures must be same.
+Overloading is the concept of compile time polymorphism.                                       2)Overriding is the concept of run time polymorphism.
+Two functions having same name and return type, but with different type and/or number of arguments is called as Overloading.        3)When a function of base class is re-defined in the derived class called as Overriding.
+ 
+It doesn't need inheritance.                                     4)It needs inheritance.
+Method can be different access modifiers.                        5)Method should be public.
+ 
+
+
+Abstract Class
+_______________
+
+1)An abstract class cannot support multiple inheritance.
+2)An abstract class cannot be inherited from by structures.
+
+3)An abstract calss can inherit from a class and one or more interfaces.
+
+
+class and structs
+http://www.c-sharpcorner.com/blogs/difference-between-class-and-structure1
+http://www.c-sharpcorner.com/UploadFile/skumaar_mca/difference-between-struct-and-classes/
+
+1)refference type      value Typs
+2)heap memory          Stack Memory
+3)support inheritance  not support
+
+
+int a=9;
+
+int=datatype variable
+a=name variable
+9=value variable
+
+
+Stack and heap
+http://www.codeproject.com/Articles/76153/Six-important-NET-concepts-Stack-heap-value-types
+
+
+There are 11 different response types which can be sent to the end user :-
+ViewResult - Renders a specified view to the response stream
+PartialViewResult - Renders a specified partial view to the response stream
+EmptyResult - An empty response is returned
+RedirectResult - Performs an HTTP redirection to a specified URL
+RedirectToRouteResult - Performs an HTTP redirection to a URL that is determined by the routing engine, based on given route data
+JsonResult - Serializes a given object to JSON format
+JavaScriptResult - Returns a piece of JavaScript code that can be executed on the client
+ContentResult - Writes content to the response stream without requiring a view
+FileContentResult - Returns a file to the client
+FileStreamResult - Returns a file to the client, which is provided by a Stream
+FilePathResult - Returns a file to the client
+
+
+
+
+
+Difference Bettween stack and heep
+
+http://www.dotnetfunda.com/interviews/show/4195/write-the-difference-between-stack-and-heap
+
+OOPs Concept
+______________
+
+Encapsulation
+Inheritance
+Polymorphism
+
+
+
+constraints type in sql:
+-----------------------
+NOT NULL Constraint
+DEFAULT Constraint
+UNIQUE Constraint
+PRIMARY Key
+FOREIGN Key
+CHECK Constraint
+INDEX
+
+access specifier in c#
+-------------------------
+public,
+private , 
+protected , 
+internal 
+protected internal .
+
+Dot net of core
+----------------
+
+
+Replace the character
+
+var str = '#this #is__ __#a test###__'
+str = str.replace(/#|_/g,'')
+alert(str)
+
+
+
+Cookies                                           Sessions
+Cookies are stored in browser as
+text file format.(client side)                    Sessions are stored in server side.
+
+It is stored limit amount of data.
+It is only allowing 4kb[4096bytes]
+                                                  It is stored unlimit amount of data.
+
+
+It is not holding the multiple variable            It is holding the multiple variable in sessions.
+ in cookies.
+                                                   
+                                                    
+
+we can accessing the cookies values              we cannot accessing the cookies values in easily.So it is more secure.
+in easily.
+So it is less secure.
+ The setcookie() function must
+ appear BEFORE the <html> tag
+
+
+Destroy Cookies:
+
+ 1. if we Closing the browsers at the time
+ cookies values destoryed.
+ 2. setting the cookie time to expire the cookie.
+
+Destroy Sessions :
+
+ 1. using unset() session,we will
+destroyed the sessions.
+ 2. using session_destory(), we we will
+destroyed the sessions. 
+
+
+Difference between Finalize() and Dispose() methods
+https://sites.google.com/site/interviewsharing/asp-net/difference-between-finalize-and-dispose-methods-in-net
+
+wcf Importes
+http://career.guru99.com/top-23-wcf-interview-questions/
+
+
+Difference b/n asp and mvc
+
+http://www.dotnet-tricks.com/Tutorial/mvc/017O031112-Difference-between-Asp.Net-WebForm-and-Asp.Net-MVC.html
+
+   
+
+sQL
+
+change the datatype in column
+delete the particular column
+
+
+rename the procedure
+---------------------
+EXEC sp_rename 'sp_MyProc', 'sp_MyProcName'
+sp_rename <oldname> <newname>
+
+change the datatype of coloumn in sql
+------------------------------------
+ALTER TABLE tablename
+ALTER COLUMN coulumnname columndatatype(size)
+
+
+------------------------------------------
+use of webconfig
+
+http://www.codeproject.com/Articles/301726/Web-config-File-ASP-NET
+
+
+Difference between View and Stored Procedure
+
+http://www.geekinterview.com/question_details/65914
+http://stackoverflow.com/questions/5194995/what-is-the-difference-between-a-stored-procedure-and-a-view
+
+
+Dictionary:
+
+Returns an error if the key does not exist
+No boxing and unboxing
+Faster than a Hash table
+
+Hashtable:
+
+Returns NULL even if the key does not exist
+Requires boxing and unboxing
+Slower than a Dictionary
+
+----------------------------------------------------------
+string and string builder
+
+http://www.aspdotnet-suresh.com/2013/11/difference-between-string-and-stringbuilder-csharp.html
+
+
+string a+b;                   its allocate separate memory for a and b
+strbuilder.Append(j);          its does not allocate memory;
+
+
+view data ,view bag
+
+http://www.c-sharpcorner.com/blogs/viewdata-vs-viewbag-vs-tempdata-in-mvc1
+
+--------------------------------------
+difference bet wcf and webservice
+
+http://www.dotnet-tricks.com/Tutorial/wcf/cH1H200314-Difference-between-WCF-and-ASP.NET-Web-Service.html
+http://wcftutorial.net/Difference-between-WCF-and-Webservice.aspx
+
+difference between ExecuteScalar, ExecuteReader and ExecuteNonQuery?
+
+http://www.aspsnippets.com/Articles/Difference-between-ExecuteReader-ExecuteScalar-and-ExecuteNonQuery.aspx
+http://stackoverflow.com/questions/2974154/what-is-the-difference-between-executescalar-executereader-and-executenonquery
+
+--------------------------------------
+difference bet DataSet and Datareader
+
+
+We should use when the application is:
+
+DataSet :
+----------
+Windows application
+Not too large data
+Can traverse data in any order front, back.
+Returning multiple tables
+If, to be serialized
+Disconnected architecture
+To return from a WCF  service
+To send across layers
+Caching the data
+Do not need to open or close connection
+
+Datareader:
+-----------
+
+Web application
+Large data
+Can traverse only forward.
+Returning multiple tables
+For Fast data access
+Needs explicitly closed
+Output parameter value will only available after close
+returns only a row after read
+
+----------------------------------------------------
+
+Difference between Constant and Read-only
+
+http://www.dotnetcodepress.com/Articles/C-Sharp/Difference-Between-Constant-and-Read-only-in-C-Sharp-with-example
+http://programcall.com/15/dotnet/difference-between-const-readonly-.net.aspx
+
+constant:
+it must declar the values eg: const a=0;
+
+read only:
+not must  declare the values eg:readonly a;
+
+
+Difference Between Clustered and Non-Clustered Indexes
+
+http://dba.fyicenter.com/faq/sql_server/Difference_Between_Clustered_and_Non_Clustered_Indexes.html
+http://sqlandme.com/2013/04/19/sql-server-differences-between-clustered-and-non-clustered-indexes/
+http://www.programmerinterview.com/index.php/database-sql/what-is-an-index/
+
+1) By default Primary Key will generate Clustured Index
+whereas Unique Key will Generate Non-Clustured Index.
+
+
+Differences between a Stored Procedure and a Trigger
+http://www.codeproject.com/Tips/624566/Differences-between-a-Stored-Procedure-and-a-Trigg
+http://www.c-sharpcorner.com/blogs/differences-between-stored-procedures-and-triggers1
+http://www.allinterview.com/showanswers/61039/difference-between-triggers-and-stored-procedure.html
+http://www.dotnetfunda.com/interviews/show/3859/difference-between-triggers-and-stored-procedures
+
+
+state management.
+http://www.slideshare.net/jinaldesailive/state-management-in-aspnet-and-aspnet-mvc-jinal-desai-net
+
+inproc - default stored in web.config.
+outproc - stored in server side.
+Sql server - stored in database.
+
+You have following types of session management in asp.net which you can define in your web.config file
+
+Session mode="inproc"...means the session will be stored on the webserver within your application 
+session mode="outproc"....means session will be stored on the server outside your application 
+session mode="stateserver"...means session will be stored in a temporary memory in the database 
+session mode="sqlserver"...means session will be stored in the database permanently.
+
+
+
+
+diff between viewdata and view bag
+http://www.dotnet-tricks.com/Tutorial/mvc/9KHW190712-ViewData-vs-ViewBag-vs-TempData-vs-Session.html
+http://www.c-sharpcorner.com/blogs/difference-between-viewdata-viewbag-and-tempdata1
+http://www.infragistics.com/community/blogs/dhananjay_kumar/archive/2015/11/06/what-are-viewdata-viewbag-and-tempdata-in-asp-net-mvc.aspx
+http://www.c-sharpcorner.com/blogs/viewdata-vs-viewbag-vs-tempdata-in-mvc1
+
+Difference between ViewBag & ViewData:
+1. ViewData is a dictionary of objects that is derived from ViewDataDictionary class and
+accessible using strings as keys.
+2. ViewBag is a dynamic property that takes advantage of the new dynamic features in C#
+4.0.
+3. ViewData requires typecasting for complex data type and check for null values to avoid
+error.
+4. ViewBag doesn’t require typecasting for complex data type.
+
+
+
+param keyword in c#
+http://www.dotnetperls.com/params
+http://www.c-sharpcorner.com/UploadFile/c63ec5/use-params-keyword-in-C-Sharp/
+
+
+Column store indexes
+Sequence objects
+Pagination
+Contained database
+Error handling
+User defined roles
+Windows server core support
+Tabular Model (SSAS)
+Power view
+DQS Data quality services 
+Improved Data Quality
+
+
+Difference Between Primary Key and Unique Key In Sql Server
+
+http://sqlhints.com/2013/06/02/difference-between-primary-key-and-unique-key-in-sql-server/
+http://www.c-sharpcorner.com/blogs/difference-between-primary-key-unique-key-and-foreign-key1
+
+
+Difference between == and === in JavaScript [duplicate]
+------------------------------------------------
+
+http://conceptf1.blogspot.in/2014/01/javascript-triple-equals-vs-double-equals-operators.html
+http://www.impressivewebs.com/why-use-triple-equals-javascipt/
+
+0 == false   // true
+0 === false  // false, because they are of a different type
+1 == "1"     // true, automatic type conversion for value only
+1 === "1"    // false, because they are of a different type
+null == undefined // true
+null === undefined // false
+'0' == false // true
+'0' === false // false
+
+
+
+This is because the equality operator == does type coercion, meaning that the interpreter implicitly tries to convert the values before comparing.
+
+On the other hand, the identity operator === does not do type coercion, and thus does not convert the values when comparing.
+
+The ASP.NET MVC framework supports four different types of filters:
+------------------------------------------------------------------
+
+Authentication filters (New in ASP.NET MVC5)
+Authorization filters – Implements the IAuthorizationFilter attribute.
+Action filters – Implements the IActionFilter attribute.
+Result filters – Implements the IResultFilter attribute.
+Exception filters – Implements the IExceptionFilter attribute.
+
+
+difference between Ref Vs Out Keywords
+______________________________________
+http://www.c-sharpcorner.com/UploadFile/ff2f08/ref-vs-out-keywords-in-C-Sharp/
+
+
+HTML Input Controls
+-----------------------------------------
+https://msdn.microsoft.com/en-us/library/s7csdtts.aspx
+http://www.tutorialspoint.com/asp.net/asp.net_html_server.htm
+
+Html 5 controlles
+https://asphtml5.codeplex.com/
+https://www.w3.org/wiki/HTML5_form_additions
+https://www.w3.org/TR/html-markup/input.html
+
+
+Collections
+
+ArrayList
+List
+LinkedList
+Dictionary
+Queues
+Stacks
+
+jquery selector
+--------------------------------
+https://api.jquery.com/category/selectors/
+
+sql table types
+--------------------------------------------
+Regular Tables
+Local Temporary Tables 
+Global Temporary Tables  
+Table Variables
+
+------------------------------
+types of function in sql
+
+Scalar Functions – The function which returns a Scalar/Single value.
+Table Valued Functions – The function which returns a row set of SQL server Table datatype. Table Valued Functions can be written as –
+Inline Table
+Multi-statement Table
+
+------------------------------------------------------------------
+
+Difference between HttpGet and HttpPost Method
+
+http://www.dotnet-tricks.com/Tutorial/aspnet/bPTF281212-Difference-between-HttpGet-and-HttpPost-Method.html
+https://forums.digitalpoint.com/threads/what-is-the-difference-between-get-method-and-post-method-in-asp-net.2666287/
+http://codedisplay.com/difference-between-get-and-post-http-methods-asp-net-interview-question/
+http://www.dotnetmirror.com/articles/aspnet/1/get-and-post-methods-in-asp.net-html-and-difference-between-get-and-post-get-vs-post
+
+---------------------------------------------------------------------------------------
+Why .net does not support multiple inheritance????
+
+http://www.c-sharpcorner.com/forums/why-net-does-not-support-multiple-inheritance
+
+---------------------------------------------------------------------------------------
+What is the difference between Private, Protected?
+
+http://www.dotnetperls.com/protected
+
+using System;
+
+class A
+{
+    protected int _a;
+    private int _b;
+}
+
+class B : A
+{
+    public B()
+    {
+	// Can access protected int but not private int!
+	Console.WriteLine(this._a);
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+	B b = new B();
+    }
+}
+
+Output
+
+0

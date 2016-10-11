@@ -1,0 +1,27 @@
+Diff ref and out
+Diff method overloading and method overriding
+Partial class
+Basic Angularjs
+Factorial program
+join in sql
+Diff == and === in javaScript
+Html 5 controles
+
+what is query string..
+What is global scope in javascript
+What is filter and what are the types of it
+How will you pass the data from view to controller and controller to view
+What is authentication and autherization
+ I have a collection in controller and how will you show it in view.
+define method overloadind and method overriding with example
+    program for factorial
+     diff ref and out
+    diff ==and === in javascript
+    html 5 controlles
+    html 5 advence
+    joins
+    partial classes
+    oops concept
+    project flow
+    diff class and struct
+int? num1 = null;(nullable type in c#)

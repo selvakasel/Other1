@@ -1,0 +1,27 @@
+
+1.DataReader,DataSet,DataAdapter---
+2.ServiceContract,Operation contract
+3.DataContract,Datamember
+4.What is WCF
+5.Types of Binding in WCF
+6.Bubbling in asp.net
+7.Application object vs Session object
+8.WCF VS Webservices
+9.PrimaryKey vs UniqueKey
+10.CandiadateKey
+11.Normalization
+12.Remoting in ASp.net
+13.AbstractClass Vs Interface
+14.Static Class
+15.SQL Server 2012 vs 2008
+16.Why we go for MVC
+
+
+
+1. Authentication & Autherization in mvc --
+2. Differ bw class and structure and what it is--
+3. logical prog'g.. find biggest # smallest #
+4. static class--
+5. Multithreading--
+6. what are the collections you have use? (like - array)
+7. types of constructors --

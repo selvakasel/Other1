@@ -1,0 +1,140 @@
+mani.vannan238@gmail.com
+
+
+
+
+
+
+
+
+WCF Services
+
+1. What is Endpoint ??
+
+2. what is the difference b/w basic httpbinding and wshttpbinding
+
+3. what are the bindings available in WCF
+
+4. what is asynchronus communcation in WCF
+
+5. diff b/w WCF services and Web services
+
+6. what are the contracts available in WCF??
+
+7. what is clientaccesspolicy and what is the use of that???
+
+C# 
+
+1. what is Partial Class
+
+2. diff b/w interface and abstract class
+
+3. delegate
+
+4. assemblies( Shared assembly, Satellite assembly, private assembly)
+
+5.Features of .net framework
+
+6.CLR,cts,cls
+
+7. OOPS concept( Very important)
+
+8.Garbage Collection
+
+9.Dispose Method
+
+10.Thread
+
+11. what is sealed class?
+
+12.what is boxing and unboxing
+
+13.stack and heap
+
+14.access modifiers
+
+
+http://oop.megasolutions.net/     ==================>url for Q&A
+
+
+ADO.net
+
+1. diff b/w connected and disconnected apporoch
+
+2. what is dataset and datatable
+
+3.diff b/w dataset and datareader
+
+asp.net
+
+1. compare .net framework based on versoins
+
+2. what is entity frame work
+
+3. asp.net life cycle
+
+4.state management in asp.net
+
+5.view state
+
+6.user control and custom control
+
+7.master page
+
+8.diff b/w web.config and machine.config
+
+9.linq
+
+10.session
+
+11.authentication and authorization 
+
+
+
+Sql server:
+
+1.diff b/w stored procedure and user defiend function must
+
+2.stored procedure
+
+3. view
+
+4.trigger
+
+5.Joins
+
+6.what is cte
+
+7.Normalization and denormalization
+
+8.Index difference b/w clustered index and non - clustered index
+
+9.diff b/w primary key and unique key
+
+10.what is transaction
+
+11. what is the use of temporary table 
+
+mvc:
+
+1.what is mvc
+
+2.what is model,view,controller
+
+3.razor engine
+
+4.diff b/w view data and view bag
+
+5.what is temp data
+
+6.how to give the validations in mvc
+
+7.mvc life cycle
+
+8.what is routing
+
+
+
+
+
+

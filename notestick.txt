@@ -1,0 +1,423 @@
+Html:4.0.1
+Css:2.0
+C#:4.0
+sql:2012
+mvc:4.0
+crystal report:11.0
+bootstrap 3.0
+jquery 1.11.1
+angular v1.5.5
+tortoise svn
+
+BHUVANESH/1-17-2016(compare_appointment)
+
+ jobs@spantechnologyservices.com
+
+synergy.updates@wipro.com
+--sathesh 7708163403
+
+
+ng-options="dep as dep.DepartmentName for dep in departmentslist"
+
+
+
+Direct Interview For .NET Developers - 14th May 2016.
+Aspire Systems India (P) Ltd
+044-67404000
+
+
+
+
+
+$(function () {
+var employees = [
+    {
+    "dept": "accounting", // new property for this object
+    "firstName": 
+    [
+   "A","B","C"
+    ]
+    },
+
+{
+    "dept": "dddd", // new property for this object
+    "firstName": 
+    [
+    "D","E","F"
+    ]
+    },
+];
+ var sad = [];
+                var sad1 = [];
+
+for (val of employees) {
+ sad1.push(val.dept);
+    sad.push(val.firstName);
+   
+}
+var res = [];
+var rest = { "name": "", "categories": "" };
+            for (i = 0; i < employees.length; i++) {
+                rest.name = employees[i].dept;
+                rest.categories = employees[i].firstName;
+                res.push(rest);
+                rest = { "name": "", "categories": "" };
+            }
+            alert(res);
+    var chart = new Highcharts.Chart({
+        chart: {
+            renderTo: "container",
+            type: "column",
+            borderWidth: 5,
+            borderColor: '#e8eaeb',
+            borderRadius: 0,
+            backgroundColor: '#f7f7f7'
+        },
+        title: {
+            style: {
+                'fontSize': '1em'
+            },
+            useHTML: true,
+            x: -27,
+            y: 8,
+            text: '<span class="chart-title"> Grouped categories <span class="chart-href"> <a href="http://www.blacklabel.pl/highcharts" target="_blank"> Black Label </a> </span> <span class="chart-subtitle">plugin by </span></span>'
+        },
+        series: [{
+            data: [4, 14, 18, 5, 6, 5, 14, 15, 18]
+        }],
+        
+        xAxis: {
+            categories:res,
+        }
+    });
+   //}//
+});
+
+Reference ID: .NET - DSTS
+
+
+vet
+Ph: 04651 – 270822
+
+director
+0462 2321620
+
+
+hr@triassicsolutions.com
+hr@simplogics.in
+hr@eurozapp.com
+fabbyjobs@gmail.com
+career@rainconcert.in
+careers@optiologic.co.in
+careers@pitsolutions.com
+careers@luminescent.digital
+careers@eteamindia.com
+careers@reflectionsinfos.com
+careers@luminescent.digital
+meera.jose@QuEST-global.com
+careers@pitsolutions.com
+
+hr@nxtlive.com
+mukesh@whiteovaltechnologies.com
+
+int[,] n = new int[2, 2] {{1, 19}, {5, 1}};
+foreach(int i in n) {
+Console.Write("{0} ", i);
+}
+
+
+In Visual Basic, what is the output from these statements?
+on error goto h
+if (0 / 1) then
+msgbox("3")
+else
+msgbox("1")
+end if
+h:
+if (typeof err.getexception() is DivideByZeroException) then
+msgbox("2")
+end if
+
+
+majo1992@gmail.com
+
+
+
+
+  Thread.Sleep(4000);
+public PartialViewResult Last()
+        {
+           
+            return PartialView("TotalList", db.AjaxModels.ToList());
+        }
+
+8438985569
+sureshslba@yahoo.com
+A13D28166007
+
+http://www.technopark.org/job-search
+----------------------------------------
+meera.jose@QuEST-global.com
+
+careers@reflectionsinfos.com
+Years of experience:
+Current salary:
+Expected salary:
+Notice period:
+
+careers@luminescent.digital
+recruit@vanillanetworks.com
+
+careers@eteamindia.com
+careers@luminescent.digital
+
+trivandram(PIT)
+04712700915
+
+
+9500019355 can-guru
+sp_getpatientappointment
+sp_getpatientappointmenthistory 10332
+sp_getpatientappointmentdatewise 10332, '01/02/2016'
+
+rahulkumar@gmail.com
+
+c#  version 4.0
+careers@imaginetventures.com
+
+
+finall
+dispose() and finall()
+
+
+JsonResult---return Json(emp, JsonRequestBehavior.AllowGet);
+FileResult----return null;
+RedirectToRouteResult---- return RedirectToAction("Index");
+return View("Edit", employee);
+JsonResult---------- return Json(new { response = status });
+TempData.Keep(“MyData”);
+TempData.Peek("Td").ToString();
+
+ sri.vathsan@sourcehov.com
+sathya.sarathi@aspiresys.com
+
+ sadheeshkumar.s@indemand.co.in
+
+trivan
+9745335744
+4712459995
+
+
+
+in-demand
+04449017575
+
+
+https://docs.google.com/forms/d/14JkHzari_nuszDhyTt9q6QzfvyCJ5Ptx46riTzAj4OI/viewform
+
+
+https://docs.google.com/forms/d/14JkHzari_nuszDhyTt9q6QzfvyCJ5Ptx46riTzAj4OI/formResponse
+
+
+HR Team
+Contact Company:Protechsoft Technologies Private Limited
+Address:II Floor, II Wing, Nelson Towers, #51,Nelson Manickam Road, Aminjikarai,Chennai,Tamilnadu,India 600029
+Website:http://www.protechsoftindia.com
+Telephone:+91-44-23746822
+Reference Id:DN-1
+
+
+8067334909-ban
+
+044-43434758 chennai
+
+
+tortoise svn
+
+normalization
+user define function
+
+what is inprocess and put process and eg
+diff viewbag and view data
+diff self join and full join and syntax
+wcf types
+version in c#
+state management
+action result types
+
+assemply
+diff primery and foregin
+what is collection
+diff mutable and immmutable
+what is collection
+
+param
+unique code
+yield 
+versio css
+versio html
+sm,lm,xs
+
+diff ==and ====
+inline query
+filters in c#
+diff actionfilter and authentication filter
+diff ref and out
+collections
+iDictionery
+html tags
+9600664158
+
+
+support@nigusmicrosoft.com
+careers@mcoxley.com
+career@ideainternationals.com
+44-45525885
+Lumina Datamatics Ltd.04466046106
+
+ public ActionResult Create()
+        {
+            return PartialView("Edit");
+        }
+
+
+ViewContext.RouteData.Values["Action"].ToString()
+
+
+disabledDatesjoe
+enableDatesTo
+
+
+
+
+
+
+
+
+public List<Prop> Chart()
+        {
+            List<Prop> list = new List<Prop>();
+            Prop p = new Prop();
+            p.Days = "Sunday";
+            //p.Present = 75;
+            //p.Absent = 25;
+            list.Add(p);
+
+            FileInfo fi = new FileInfo("D:/Vinoth Files/DataEntity/DataEntity/chart.txt");
+            using (TextWriter tw = new StreamWriter(fi.Open(FileMode.Truncate)))
+            {
+                tw.Write("write my new text here");
+            } 
+
+            //FileInfo fi = new FileInfo(@"D:\Vinoth Files\DataEntity\DataEntity\chart.txt");
+
+          
+
+            //using (TextWriter tw = new StreamWriter(fi.Open(FileMode.Truncate)))
+            //{
+            //  //  tw.Write("write my new text here");
+            //}
+
+            using (System.IO.StreamWriter file = new System.IO.StreamWriter(@"D:\Vinoth Files\DataEntity\DataEntity\chart.txt"))
+            {
+                foreach (Prop line in list)
+                {
+                    // If the line doesn't contain the word 'Second', write the line to the file.                  
+                        file.WriteLine(line);                 
+                }
+            }
+
+            return list;
+        }
+
+byte[] files = (byte[])dr["image"];
+                        string imageBase64Data = Convert.ToBase64String(files);
+                        string imageDataURL = string.Format("data:image/png;base64,{0}", imageBase64Data);
+                        string a = imageDataURL;
+                        obj.demo = a;
+
+
+The Bootstrap grid system has four classes: xs (phones), sm (tablets), md (desktops), and lg (larger desktops). The classes can be combined to create more dynamic and flexible layouts.
+
+
+Dear Rajaram,
+Tomorrow is my last dateThis is my relieving document  
+
+rajaram@wibrant.com
+
+D:\MAJO\Mobile App\Majo app\chart app\DoctorApp
+----------------
+D:\MAJO\BHUVANESH\1-17-2016
+(comparea_apointmant)\DoctorApp
+
+
+
+Diff ref and out
+Diff method overloading and method overriding
+Partial class
+Basic Angularjs
+Factorial program
+join in sql
+Diff == and === in javaScript
+Html 5 controles
+
+what is query string..
+What is global scope in javascript
+What is filter and what are the types of it
+How will you pass the data from view to controller and controller to view
+What is authentication and autherization
+ I have a collection in controller and how will you show it in view.
+define method overloadind and method overriding with example
+    program for factorial
+     diff ref and out
+    diff ==and === in javascript
+    html 5 controlles
+    html 5 advence
+    joins
+    partial classes
+    oops concept
+    project flow
+    diff class and struct
+int? num1 = null;(nullable type in c#)
+
+Friends Resume
+Dear Sir,
+
+I Referring  my Friends...
+
+
+
+
+
+
+
+
+
+50517477
+senthamil selvi
+vinesh kumar sap id:51588104
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
